@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "wordle_pdr2117"
-version = "0.1.0"
+version = "1.0.0"
 description = "QMSS G5072 Homework 7"
 authors = ["Patrick Rodriguez"]
 license = "MIT"
