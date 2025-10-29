@@ -10,13 +10,16 @@ project = u"wordle_pdr2117"
 copyright = u"2025, Patrick Rodriguez"
 author = u"Patrick Rodriguez"
 
+# The master document
+root_doc = 'index'
+
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    "myst_nb",
+    "myst_parser",
     "autoapi.extension",
     "sphinx.ext.napoleon",
     "sphinx.ext.viewcode",
